@@ -1,0 +1,652 @@
+.newsletter-content {
+  background-color: #f6f2eb;
+  padding: 40px;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4846;
+}
+
+.featured-image {
+  width: 100%;
+  border-radius: 0px;
+  margin-bottom: 10px;
+
+}
+
+.newsletter-text {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+
+
+.closing-line {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: end;
+
+
+}
+
+.section-title {
+  background-color: #f6f2eb;
+  /* Light beige background */
+  padding: 15px;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+
+  color: #4a4846;
+  border-top: 2px solid #4a4846;
+  border-bottom: 2px solid #4a4846;
+  margin: 30px auto;
+
+}
+
+/* Story Board */
+
+.mississippi-stories {
+  text-align: center;
+  background-color: #f6f2eb;
+  padding: 40px 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4846;
+
+}
+
+.stories-context {
+  width: 800px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 25px;
+
+}
+
+.mississippi-stories h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.story-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.story {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 80%;
+  max-width: 700px;
+  position: relative;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.story-number {
+  font-size: 50px;
+  font-weight: bold;
+  color: #dcc7af;
+  position: absolute;
+  top: -20px;
+  left: -10px;
+  font-family: 'Playfair Display', serif;
+}
+
+.story-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 20px;
+}
+
+.story-text {
+  flex: 1;
+  text-align: left;
+}
+
+.story-text h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.story-text h3 a {
+  text-decoration: none;
+  color: #4a4846;
+}
+
+.story-text p {
+  font-size: 14px;
+  color: #555;
+}
+
+.story-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: #dcc7af;
+  color: #4a4846;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.story-button:hover {
+  background: #b89e87;
+}
+
+/* Featured Creators Grid */
+.featured-creators {
+  background-color: #f6f2eb;
+  padding: 30px;
+  text-align: center;
+}
+
+.creator-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  max-width: 900px;
+  margin: auto;
+  padding-bottom: 80px;
+  border-bottom: 3px solid rgb(74, 72, 70);
+
+}
+
+.creator img {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Magnolia Picks */
+.magnolia-picks {
+  background-color: #f6f2eb;
+  padding: 40px;
+  text-align: left;
+  display: flex;
+}
+
+.magnolia-title {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  color: #4a4846;
+  padding: 20px;
+  background: #fff;
+  display: inline-block;
+}
+
+.magnolia-content {
+  display: flex;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+.magnolia-image {
+  width: 50%;
+  border-radius: 5px;
+}
+
+.magnolia-text {
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4846;
+}
+
+.magnolia-text h3 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.magnolia-text p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.menu-link {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4a4846;
+}
+
+.review-button {
+  display: block;
+  background: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  width: max-content;
+  border-radius: 5px;
+}
+
+
+/* Spotlight */
+
+.spotlight-section {
+  background-color: #f6f2eb;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.spotlight-card {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  gap: 20px;
+}
+
+.spotlight-card.reverse {
+  flex-direction: row-reverse;
+}
+
+.spotlight-image {
+  width: 50%;
+  border-radius: 5px;
+}
+
+.spotlight-text {
+  flex: 1;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4846;
+}
+
+.spotlight-text h3 a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4a4846;
+}
+
+.spotlight-text h4 {
+  font-style: italic;
+  font-size: 18px;
+  color: #4a4846;
+  margin-bottom: 10px;
+}
+
+.spotlight-text p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.spotlight-button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid #4a4846;
+  color: #4a4846;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.spotlight-button:hover {
+  background: #4a4846;
+  color: white;
+}
+
+/*event Section*/
+
+.event-section {
+  background-color: #fbe8e8;
+  padding: 40px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event-title {
+
+  font-size: 48px;
+  font-weight: bold;
+  font-family: 'Playfair Display', serif;
+  color: #4a4846;
+  padding: 20px;
+
+  display: flex;
+}
+
+.event-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.event-details {
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4846;
+  text-align: center;
+}
+
+.event-details h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-details p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.event-details a {
+  color: #4a4846;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.event-link {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4a4846;
+}
+
+.event-button {
+  display: block;
+  background: #fff;
+  border: 2px solid #4a4846;
+  color: #4a4846;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 15px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.event-button:hover {
+  background: #4a4846;
+  color: white;
+}
+
+.mardi-gras-section {
+  background-color: #f6f2eb;
+  padding: 40px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mardi-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.mardi-content {
+  position: relative;
+  display: inline-block;
+}
+
+.mardi-image {
+  width: 800px;
+  max-width: 500px;
+  border-radius: 5px;
+}
+
+.mardi-overlay {
+
+  position: absolute;
+  top: 75%;
+  right: -25%;
+  transform: translateY(-70%);
+  background: #4a4846;
+  color: white;
+  padding: 20px;
+  max-width: 250px;
+  text-align: left;
+  border-radius: 5px;
+  opacity: 90%;
+}
+
+.mardi-overlay p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.mardi-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: white;
+  color: #4a4846;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 2px solid white;
+  transition: 0.3s;
+}
+
+.mardi-button:hover {
+  background: #fff;
+  color: black;
+}
+
+/* Recipe Section */
+.recipe-section {
+  background-color: #f6f2eb;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.recipe-content {
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  gap: 20px;
+}
+
+.recipe-image {
+  width: 50%;
+  border-radius: 5px;
+}
+
+.recipe-text {
+  flex: 1;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4846;
+}
+
+.recipe-text h3 a {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4a4846;
+}
+
+.recipe-text p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.recipe-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background: transparent;
+  border: 2px solid #4a4846;
+  color: #4a4846;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.recipe-button:hover {
+  background: #4a4846;
+  color: white;
+}
+
+/* Discount Section */
+.discount-section {
+  background-color: #f6f2eb;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.discount-content {
+  position: relative;
+  display: inline-block;
+  max-width: 600px;
+}
+
+.discount-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.discount-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  text-align: center;
+  width: 80%;
+  border-radius: 10px;
+}
+
+.discount-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.discount-overlay p {
+  font-size: 14px;
+}
+
+.discount-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background: #8b9b74;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.discount-button:hover {
+  background: #6f7f5a;
+}
+
+.recipe-image {
+  border-radius: 50px;
+  box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+.newsletter-footer {
+  background-color: #f6f2eb;
+  padding: 40px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: #4a4846;
+}
+
+.footer-content {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-content p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-content a {
+  color: #4a4846;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.editor-section {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 20px 0;
+}
+
+.editor {
+  text-align: center;
+}
+
+.editor img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.editor p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.footer-address {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #777;
+}

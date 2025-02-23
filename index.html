@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Magnolia Feed</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <div id="password-prompt">
+    <h2>Enter Password to Access</h2>
+    <input type="password" id="password-input" placeholder="Enter password">
+    <button onclick="checkPassword()">Submit</button>
+    <p id="error-message" style="color: red; display: none;">Incorrect password. Try again.</p>
+  </div>
+
+
+  <div id="site-content" style="display: none;">
+    <header>
+      <div class="newsletter-header">
+        <div class="top-info">
+          <p>Edition &#35;4 &#124; FEBURARY 2025</p>
+        </div>
+        <div class="main-title">
+          <h1>THE MAGNOLIA FEED</h1>
+          <p class="tagline">YOUR SPOTLIGHT ON THE SIP</p>
+
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <img src="photos/featured-image.jpg" alt="Mississippi Beach at Sunset" class="featured-image">
+
+      <section class="newsletter-content">
+
+        <div class="newsletter-text">
+          <h2>Welcome to This Week’s Edition of <em>The Magnolia Feed</em></h2>
+          <p>
+            Mississippi is full of hidden gems, untold stories, and talented creators, and we're here to bring them
+            straight
+            to your inbox. Whether you're looking for inspiration, new places to explore, or local businesses to
+            support,
+            we're glad to have you along for the journey.
+          </p>
+
+          <p><strong>Have a photo you’d like to submit?</strong> Email us your favorite <strong>Mississippi
+              photo</strong>
+            for a chance to be featured in next week's edition!</p>
+
+          <h3>Here's What’s Inside:</h3>
+          <ul>
+            <li><strong>Mississippi Stories</strong> – An <strong>undercover mission</strong> to dismantle a hate group,
+              a
+              <strong>community’s search</strong> for a missing teen, and a <strong>fight for justice</strong> after a
+              triple homicide.
+            </li>
+            <li><strong>Meet the Creators</strong> – Get to know the folks behind <em>The Magnolia Feed</em>.</li>
+            <li><strong>Magnolia Picks</strong> – Savor a standout brunch at <em>Brick & Spoon</em>, where
+              <strong>Southern
+                flavors</strong> meet creative twists.
+            </li>
+            <li><strong>Upcoming Event – Brides & Bubbly</strong>: An elegant event for <strong>brides-to-be</strong>
+              with
+              top local vendors.</li>
+            <li><strong>Business Spotlight – <em>Southern Magnolia Studio</em></strong>: Handmade polymer clay earrings
+              inspired by the <strong>beauty of the Gulf Coast</strong>.</li>
+            <li><strong>Creator Spotlight</strong> – Meet the creator behind <em>Mission Celebrate</em>, a
+              Hattiesburg-based
+              business specializing in custom stationery and <strong>dedicated to community outreach</strong>.</li>
+            <li><strong>Recipe of the Week</strong> – Whip up some <em>Chocolate Gravy</em>—a rich, Southern classic
+              perfect
+              over warm biscuits!</li>
+            <li><strong>Mardi Gras & Conservation</strong> – The <strong>bead recycling initiative</strong> helping
+              protect
+              local ecosystems.</li>
+            <li><strong>Subscriber Discount</strong> – An <strong>exclusive deal</strong>, just for our readers.</li>
+          </ul>
+
+          <hr>
+
+          <p class="closing-line"><strong>There’s plenty to discover, so let’s dive in.</strong></p>
+        </div>
+      </section>
+
+      <div class="section-title">
+        <h2>This Week’s Mississippi Moments</h2>
+      </div>
+
+
+      <section class="mississippi-stories">
+        <p class="stories-context">
+          This week, we’re highlighting three powerful Mississippi stories—a daring undercover mission to dismantle a
+          hate
+          group, a community’s urgent search for a missing teen, and an ongoing fight for justice after a tragic triple
+          homicide.
+        <p>
+
+        <div class="story-container">
+          <!-- Story 1 -->
+          <div class="story">
+            <div class="story-number">01</div>
+            <img src="photos/story1.jpg" alt="Undercover Mission - The KKK" class="story-image">
+            <div class="story-text">
+              <h3><a href="#">The Man Who Infiltrated the KKK</a></h3>
+              <p>Jones County, Mississippi is known for standing up for what’s right. In the 1960s, that legacy
+                continued
+                with Tom Landrum, a local farmer and juvenile court counselor who bravely went undercover for the FBI to
+                take down the KKK—a dangerous mission that put his family at risk and revealed shocking truths.</p>
+              <a href="https://www.youtube.com/watch?v=ttTCiv1HsUU" target="_blank" class="story-button">Read
+                More</a>
+            </div>
+          </div>
+
+          <!-- Story 2 -->
+          <div class="story">
+            <div class="story-number">02</div>
+            <img src="photos/story2.jpg" alt="Disappearance in Waynesboro" class="story-image">
+            <div class="story-text">
+              <h3><a href="#">Disappearance in Waynesboro</a></h3>
+              <p>19-year-old John Quavontae Gandy vanished on January 8, 2025, after leaving his girlfriend’s apartment
+                in
+                Waynesboro, Mississippi. Witnesses saw him approach a red or burgundy vehicle before he disappeared.
+                Details remain unclear, and authorities need your help. Even the smallest tip could be the key to
+                finding
+                John.</p>
+              <a href="https://usercontent.flodesk.com/a106ad4a-5724-4edf-b7bc-43c336ad1201/upload/tcuqaqhkbn/John_Gandy-_Sallye_Miley.pdf"
+                target="_blank" class="story-button">Read More</a>
+
+            </div>
+          </div>
+
+          <!-- Story 3 -->
+          <div class="story">
+            <div class="story-number">03</div>
+            <img src="photos/story3.jpg" alt="Triple Homicide in State Line, MS" class="story-image">
+            <div class="story-text">
+              <h3><a href="#">Triple Homicide Shakes State Line, Mississippi</a></h3>
+              <p>48 days have passed since the New Year’s Day triple homicide at Clark’s gas station in State Line, MS,
+                leaving Rhonda Denson, Lester Campbell, and Jason Thornton dead. The shooter remains unidentified,
+                despite
+                surveillance footage and a $100,000 reward. Justice is still sought—any tip could make a difference.</p>
+              <a href="https://usercontent.flodesk.com/a106ad4a-5724-4edf-b7bc-43c336ad1201/upload/cybv4o5qu7/Stateline_Homicide_-_Jason_Carpenter.pdf"
+                target="_blank" class="story-button">Read More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <div class="section-title">
+        <h2>Meet the creators behind The Magnolia Feed</h2>
+      </div>
+
+      <section class="featured-creators">
+        <div class="creator-grid">
+          <div class="creator">
+            <a href="https://linktr.ee/papams" target="_blank">
+              <img src="creators/creator1.jpg" alt="Papa Mississippi">
+            </a>
+          </div>
+          <div class="creator">
+            <a href="https://bio.site/bourntocreate?fbclid=PAZXh0bgNhZW0CMTEAAabwBPFHHiA48-X2prbz6xbQd9gasliI-MFkGK2Hpl4AQxa81vD3HVMZmMY_aem_fn7hZVc6nKzy_VUPhd-C-g"
+              target="_blank">
+              <img src="creators/creator2.jpg" alt="Bourn to Create">
+            </a>
+          </div>
+          <div class="creator">
+            <a href="https://linktr.ee/truecrimemama" target="_blank">
+              <img src="creators/creator3.jpg" alt="True Crime Mama">
+            </a>
+          </div>
+          <div class="creator">
+            <a href="https://www.yourbarefootneighbor.com/" target="_blank">
+              <img src="creators/creator4.jpg" alt="Your Backyard Neighbor">
+            </a>
+          </div>
+          <div class="creator">
+            <a href="https://linktr.ee/mississippi.candle.com" target="_blank">
+              <img src="creators/creator5.jpg" alt="Mississippi Candle Co.">
+            </a>
+          </div>
+          <div class="creator">
+            <a href="https://linktr.ee/the.cookin.mama" target="_blank">
+              <img src="creators/creator6.jpg" alt="The Cookin Mama">
+            </a>
+          </div>
+          <div class="creator">
+            <a href="https://beacons.ai/warsh" target="_blank">
+              <img src="creators/creator7.jpg" alt="Country Lather Soap">
+            </a>
+          </div>
+          <div class="creator">
+            <a href="https://msha.ke/pinewoodpress" target="_blank">
+              <img src="creators/creator8.jpg" alt="Christian Wash Carver">
+            </a>
+          </div>
+          <div class="creator">
+            <a href="https://linktr.ee/paigeymcb" target="_blank">
+              <img src="creators/creator9.jpg" alt="Paige Bullock">
+            </a>
+          </div>
+          <div class="creator">
+            <a href="https://www.tiktok.com/@jasonscuttinup2" target="_blank">
+              <img src="creators/creator10.jpg" alt="Jason Cuttin Up">
+            </a>
+          </div>
+          <div class="creator">
+            <a href="https://linktr.ee/thekerripaul?fbclid=PAZXh0bgNhZW0CMTEAAab3uW-Qwa2-GWTw-qAesRBl7YGPTz0DAV2d8Iu8iL5KMtMy3FvZjzIxSRI_aem_IYUTcGLgxS7L7G1wcZeg0g"
+              target="_blank">
+              <img src="creators/creator11.jpg" alt="Kerri Paul">
+            </a>
+
+          </div>
+          <div class="creator">
+            <a href="https://linktr.ee/mississippi_memaw" target="_blank">
+              <img src="creators/creator12.jpg" alt="Mississippi Memaw">
+            </a>
+          </div>
+          <div class="creator">
+            <a href="https://linktr.ee/landontalks?fbclid=PAZXh0bgNhZW0CMTEAAaY0YcptZcpTDLdwcrM9yoNFR_HgjZQkBVvg62iqbireBoQa3f33bNzJPck_aem_KhJrjv73gqOyihz8jJAKsg"
+              target="_blank">
+              <img src="creators/creator13.jpg" alt="Landon Talks">
+            </a>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="magnolia-picks">
+
+        <div class="magnolia-title">MAGNOLIA PICKS</div>
+        <div class="magnolia-content">
+
+          <img src="photos/brick-and-spoon.jpg" alt="Brick & Spoon Dish" class="magnolia-image">
+
+          <div class="magnolia-text">
+            <h3>BRICK & SPOON - GULFPORT, MS</h3>
+            <p><strong>Brick & Spoon</strong> offers a distinctive dining experience, blending <strong>Southern comfort
+                food</strong> with creative twists.</p>
+
+            <p><strong>Build Your Own Bloody Mary:</strong> Choose from over 50 options—select your vodka, adjust the
+              spice, and add toppings like veggies, herbs, meats, and cheeses.</p>
+
+            <p><strong>Bananas in Pajamas:</strong> Crispy banana eggrolls served with a rich Foster sauce.</p>
+
+            <p><strong>Café Beignets:</strong> Classic New Orleans-style beignets with powdered sugar and marmalade.</p>
+
+            <p><strong>Bayou Benedict:</strong> A regional twist on the classic, featuring bayou shrimp and house-made
+              hollandaise.</p>
+
+            <p><strong>Bacon Cali Burger:</strong> Pecan-smoked bacon, avocado, pepper jack, and house aioli atop a
+              homemade patty.</p>
+
+            <p>Experience <strong>Southern comfort food with a modern twist</strong>—perfect for breakfast, brunch, or
+              lunch.</p>
+
+            <a href="https://www.brickandspoon.com/menus/" target="_blank" class="menu-link">VIEW FULL MENU</a>
+            <a href="https://www.tiktok.com/@bourntocreate/video/7472421129240513835?lang=en" target="_blank"
+              class="review-button">Watch @Bourntocreate’s Review Here</a>
+          </div>
+        </div>
+
+      </section>
+
+
+      <div class="section-title">
+        <h2>Buisness & Creator Spotlight</h2>
+      </div>
+
+      <section class="spotlight-section">
+        <!-- Business Spotlight -->
+        <div class="spotlight-card">
+          <img src="photos/southern-magnolia.jpg" alt="Southern Magnolia Studio Earrings" class="spotlight-image">
+          <div class="spotlight-text">
+            <h3><a href="https://linktr.ee/southernmagnoliastudio" target="_blank">Business Spotlight</a></h3>
+            <h4><em>Southern Magnolia Studio</em></h4>
+            <p>Southern Magnolia Studio in Biloxi, Mississippi celebrates the Gulf Coast with handcrafted polymer clay
+              earrings. Each piece reflects the coastal charm of the Magnolia State.</p>
+            <p>Shop locally at the Biloxi Visitors Center Gift Shop or the Mississippi Antique Galleria (MAG), or online
+              on Etsy at <em>SouthernMagStudio</em>.</p>
+            <p>Follow on TikTok to stay updated on new products!</p>
+            <a href="https://linktr.ee/southernmagnoliastudio" class="spotlight-button" target="_blank">Shop &
+              Follow</a>
+          </div>
+        </div>
+
+        <!-- Creator Spotlight -->
+        <div class="spotlight-card">
+          <div class=" spotlight-text">
+            <h3><a href="https://www.facebook.com/search/top?q=mission%20celebrate" target="_blank">Creator
+                Spotlight</a>
+            </h3>
+            <h4><em>Leslie - Mission Celebrate</em></h4>
+            <p>Leslie is the owner and creator behind Mission Celebrate, a small business based in Hattiesburg,
+              Mississippi, specializing in custom stationery, invitations, and design.</p>
+            <p>We celebrate Leslie’s passion for outreach, as she most recently ran fundraisers to help out the
+              Hurricane
+              Helene victims in North Carolina and the devastating fire victims in California.</p>
+            <a href="https://www.facebook.com/search/top?q=mission%20celebrate" class="spotlight-button"
+              target="_blank">Follow Along</a>
+          </div>
+          <img src="photos/leslie-mission.jpg" alt="Leslie - Mission Celebrate" class="spotlight-image">
+        </div>
+      </section>
+
+      <section class="event-section">
+        <div class="event-title">UPCOMING EVENT</div>
+
+        <div class="event-content">
+          <img src="photos/brides-bubbly.jpg" alt="Brides & Bubbly Event" class="event-image">
+
+          <div class="event-details">
+            <h3>ARE YOU A 2025 BRIDE OR WEDDING PROFESSIONAL LOOKING TO CONNECT?</h3>
+            <p><strong>Brides & Bubbly</strong> is the event for you!</p>
+
+            <p>Meet <strong>top local vendors</strong>, promote your business, and discover how fun wedding planning can
+              be—<strong>no stress required. Sip back and relax</strong> while we help you prep for the big day!</p>
+
+            <hr>
+
+            <p><strong>Sunday, March 9 | 11 AM – 3 PM</strong><br>
+              <strong>The Stables, Vancleave, MS</strong><br>
+              <em>Hosted by: WXXV & South Mississippi Living</em>
+            </p>
+
+            <p><strong>For Couples:</strong> Meet vendors, get inspired, and plan with ease.</p>
+
+            <p><strong>For Vendors:</strong> Meet couples, showcase services, book on-site, and enjoy event promotions
+              through WXXV and South Mississippi Living magazine.</p>
+
+            <p>Spaces are limited, so don’t miss out!</p>
+
+            <p>Get your tickets today, or secure your booth by going to <a
+                href="https://www.wxxv25.com/brides-and-bubbly/"
+                target="_blank"><strong>https://www.wxxv25.com/brides-and-bubbly/</strong></a></p>
+
+            <a href="https://usercontent.flodesk.com/a106ad4a-5724-4edf-b7bc-43c336ad1201/upload/v24sqnssb6/B_Bflyer.jpg
+          " class="event-link" target="_blank">FIND OUT MORE</a>
+
+            <a href="https://www.wxxv25.com/brides-and-bubbly/?fbclid=IwZXh0bgNhZW0CMTAAAR3JWOHkyQthK_oTBQHemMkNf0rlo2zUPaIwu_kcAfogw1iyej9e2uhsUtU_aem_o7HxBjBV-sUi_tVUvc2uBA"
+              class="event-button" target="_blank">Register Now</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="mardi-gras-section">
+        <h3 class="mardi-title">Mardi Gras Bead Recycling</h3>
+
+        <div class="mardi-content">
+          <img src="photos/mardi-gras-beads.jpg" alt="Mardi Gras Beads" class="mardi-image">
+
+          <div class="mardi-overlay">
+            <p><strong>From Feb 1 – Mar 15, 2025,</strong> recycle your Mardi Gras beads at <strong>Mississippi
+                Aquarium</strong> to help protect local wildlife and ecosystems. Drop-off available at the Ticketing
+              Plaza.</p>
+            <a href="https://www.msaquarium.org/events/2025/mardigras-bead-recycling" class="mardi-button"
+              target="_blank">Learn More</a>
+          </div>
+        </div>
+      </section>
+
+      <div class="section-title">
+        <h2>Recipe of the Week</h2>
+      </div>
+
+      <section class="recipe-section">
+        <div class="recipe-content">
+          <img src="photos/chocolate-gravy.jpg" alt="Chocolate Gravy" class="recipe-image">
+          <div class="recipe-text">
+            <h3><a
+                href="https://usercontent.flodesk.com/a106ad4a-5724-4edf-b7bc-43c336ad1201/upload/mt35jmpeqd/Chocolate_Gravy_-_Cassidy.pdf"
+                target="_blank">Chocolate Gravy</a></h3>
+            <p>This rich, velvety chocolate gravy comes together in minutes and is best served over warm
+              biscuits—because
+              chocolate for breakfast is always a good idea!</p>
+            <p><em>- Cassidy Camp (@the.cookin.mama)</em></p>
+            <a href="https://usercontent.flodesk.com/a106ad4a-5724-4edf-b7bc-43c336ad1201/upload/mt35jmpeqd/Chocolate_Gravy_-_Cassidy.pdf"
+              target="_blank" class="recipe-button">Get the Recipe</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="discount-section">
+        <div class="discount-content">
+          <img src="photos/soap-discount.jpg" alt="Country Lather Soap" class="discount-image">
+          <div class="discount-overlay">
+            <p class="discount-title">Subscriber Discount</p>
+            <p><strong><em>Country Lather Soap Works</em></strong> is offering <em>The Magnolia Feed</em> subscribers
+              <strong>15% Off All Products</strong> (Excludes Gift Cards).
+            </p>
+            <p>Use Code <strong>MSFEED15</strong> at checkout.</p>
+            <a href="https://countrylathersw.com/" class="discount-button" target="_blank">Shop Now</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <footer class="newsletter-footer">
+    <div class="footer-content">
+      <p><em>Know someone who’d love this newsletter?</em><br>
+        Forward it to a friend! <a href="#">They can sign up here</a></p>
+
+      <p><strong>Thanks for Reading!</strong><br>
+        We’re so glad you joined us for this week’s spotlight on Mississippi’s creators, events, and businesses. We hope
+        you found something that inspires you to get out, explore, and support your local community!</p>
+
+      <p><strong>Want to Be Featured?</strong><br>
+        Know a creator, business, or event we should highlight? Email us your suggestions at <a
+          href="mailto:themagnoliafeed@gmail.com">themagnoliafeed@gmail.com</a>.</p>
+
+      <p><strong>From the Editors</strong><br>
+        Bringing this newsletter to life each week is a joy, and we’re always looking for new ways to share stories,
+        highlight creativity, and connect with like-minded people. If you ever want to chat about ideas, projects, or
+        collaborations, our inbox is always open!<br>
+        Contact Us: <a href="mailto:themagnoliafeed@gmail.com">themagnoliafeed@gmail.com</a></p>
+
+      <div class="editor-section">
+        <div class="editor">
+          <img src="creators/noel-brown.jpg" alt="Noel Brown">
+          <p><strong>Noel Brown</strong><br>Editor</p>
+        </div>
+        <div class="editor">
+          <img src="creators/sarah-blackbourn.jpg" alt="Sarah Blackbourn">
+          <p><strong>Sarah Blackbourn</strong><br>Editor</p>
+        </div>
+      </div>
+
+      <p><em>See you next week!</em><br>– The Magnolia Feed Team</p>
+
+      <div class="footer-address">
+        <p>PO Box 6135<br>D'Iberville, Mississippi 39540, United States</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

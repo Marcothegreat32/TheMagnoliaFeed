@@ -1,0 +1,107 @@
+#password-prompt {
+  background: white;
+  padding: 30px;
+  max-width: 300px;
+  margin: 50px auto;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: #f6f2eb;
+}
+
+#password-prompt {
+  background: white;
+  padding: 30px;
+  max-width: 300px;
+  margin: 50px auto;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  background-color: #4a4846;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #3a3836;
+}
+
+
+body {
+  font-family: Helvetica, 'Open Sans', sans-serif;
+  background-color: #f6f2eb;
+  margin: 0;
+  padding: 0;
+
+}
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+p {
+  margin: 0;
+
+
+
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  color: #4a4846;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: bolder;
+
+}
+
+em {}
+
+
+hr {
+  margin: 30px auto;
+  width: 50%;
+  border: 1px solid #ccc;
+}
